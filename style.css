@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,serif;
+    /* overflow: hidden;  */
+
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: white;
+    /* overflow: hidden; */
+  }
+  
+  .container {
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 0,8rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  .para {
+    /* border: 1px solid blue; */
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 20px 20px; */
+    padding: 20px 0;
+    font-size: 1.1rem;
+    color: #4A4947;
+  }
+  
+  /* Added .box-cont for all the boxes */
+  .box-cont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* border: 1px solid cyan; */
+    /* padding: 10px 20px; */
+    /* border: 1px solid red; */
+
+  }
+  
+  .box {
+    background-color: #4A4947;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    width: 200px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for transform and box-shadow */
+}
+
+.box:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow effect on hover */
+}
+
+.box h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+    color: white;
+}
+  
+  .box h2 + hr {
+    margin-bottom: 1rem;
+  }
+  
+  .box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .box ul li {
+    /* margin-bottom: 10px; */
+    line-height: 1.8rem;
+  }
+  
+  .box ul li a {
+    text-decoration: none;
+    color: #F5F5F5;
+    /* text-decoration: underline; */
+    /* text-decoration: dotted; */
+    
+
+  }
+  
+  .box ul li a:hover {
+    text-decoration: underline;
+    color: rgba(216, 215, 223, 0.989);
+  }
+  
